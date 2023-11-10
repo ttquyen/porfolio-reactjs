@@ -2,13 +2,15 @@ import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsPersonLinesFill } from "react-icons/bs";
+import Logo from "../assets/girl.png";
+import { Link } from "react-scroll";
 
-import Logo from "../assets/navLogo.png";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => {
     setNav((pre) => !pre);
   };
+
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#08192f] text-gray-300">
       <div>
@@ -16,10 +18,61 @@ const Navbar = () => {
       </div>
       {/* Menu */}
       <ul className="hidden md:flex">
-        <li>Home</li>
-        <li>About</li>
-        <li>Skills</li>
-        <li>Contact</li>
+        <li>
+          <Link
+            to="home"
+            smooth={true}
+            duration={500}
+            activeClass="active"
+            spy={true}
+          >
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="about"
+            smooth={true}
+            duration={500}
+            activeClass="active"
+            spy={true}
+          >
+            About
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="skills"
+            smooth={true}
+            duration={500}
+            activeClass="active"
+            spy={true}
+          >
+            Skills
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="work"
+            smooth={true}
+            duration={500}
+            activeClass="active"
+            spy={true}
+          >
+            Work
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="contact"
+            smooth={true}
+            duration={500}
+            activeClass="active"
+            spy={true}
+          >
+            Contact
+          </Link>
+        </li>
       </ul>
       {/* Hamburger */}
       <div className="md:hidden z-10" onClick={handleClick}>
@@ -33,10 +86,66 @@ const Navbar = () => {
             : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
         }
       >
-        <li className="py-6 text-4xl ">Home</li>
-        <li className="py-6 text-4xl ">About</li>
-        <li className="py-6 text-4xl ">Skills</li>
-        <li className="py-6 text-4xl ">Contact</li>
+        <li className="py-6 text-4xl ">
+          <Link
+            onClick={handleClick}
+            to="home"
+            smooth={true}
+            duration={500}
+            activeClass="active"
+            spy={true}
+          >
+            Home
+          </Link>
+        </li>
+        <li className="py-6 text-4xl ">
+          <Link
+            onClick={handleClick}
+            to="about"
+            smooth={true}
+            duration={500}
+            activeClass="active"
+            spy={true}
+          >
+            About
+          </Link>
+        </li>
+        <li className="py-6 text-4xl ">
+          <Link
+            onClick={handleClick}
+            to="skills"
+            smooth={true}
+            duration={500}
+            activeClass="active"
+            spy={true}
+          >
+            Skills
+          </Link>
+        </li>
+        <li className="py-6 text-4xl ">
+          <Link
+            onClick={handleClick}
+            to="work"
+            smooth={true}
+            duration={500}
+            activeClass="active"
+            spy={true}
+          >
+            Work
+          </Link>
+        </li>
+        <li className="py-6 text-4xl ">
+          <Link
+            onClick={handleClick}
+            to="contact"
+            smooth={true}
+            duration={500}
+            activeClass="active"
+            spy={true}
+          >
+            Contact
+          </Link>
+        </li>
       </ul>
 
       {/* Social Icons */}
