@@ -2,7 +2,6 @@ import React from "react";
 import CoderComm from "../assets/projects/codercomm.png";
 import MovieApp from "../assets/projects/movie.jpeg";
 import Character from "../assets/projects/character.png";
-import Twitch from "../assets/projects/twitch.jpg";
 const Work = () => {
   return (
     <div name="work" className="w-full md:h-screen bg-[#0a192f] text-gray-300">
