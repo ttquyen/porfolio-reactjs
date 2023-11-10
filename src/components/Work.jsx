@@ -1,7 +1,7 @@
 import React from "react";
-import Crypto from "../assets/projects/crypto.jpg";
-import Netflix from "../assets/projects/netflix.jpg";
-import Property from "../assets/projects/property.jpg";
+import CoderComm from "../assets/projects/codercomm.png";
+import MovieApp from "../assets/projects/movie.jpeg";
+import Character from "../assets/projects/character.png";
 import Twitch from "../assets/projects/twitch.jpg";
 const Work = () => {
   return (
@@ -18,21 +18,21 @@ const Work = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/* Card item */}
           <div
-            style={{ backgroundImage: `url(${Netflix})` }}
+            style={{ backgroundImage: `url(${MovieApp})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effect */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                ReactJS Application
+                The Movie App
               </span>
               <div>
-                <a href="/">
+                <a href="https://quyentt-movie-app-final.netlify.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg font-bold">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/ttquyen/the-movie-app/tree/enhance-final">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg font-bold">
                     Code
                   </button>
@@ -41,21 +41,21 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${Property})` }}
+            style={{ backgroundImage: `url(${CoderComm})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effect */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                ReactJS Application
+                CoderComm
               </span>
               <div>
-                <a href="/">
+                <a href="https://quyentt-coder-comm.netlify.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg font-bold">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/ttquyen/codercomm">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg font-bold">
                     Code
                   </button>
@@ -64,44 +64,21 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${Crypto})` }}
+            style={{ backgroundImage: `url(${Character})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effect */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                ReactJS Application
+                Character Customization
               </span>
               <div>
-                <a href="/">
+                <a href="https://quyentt-character-customization-app.netlify.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg font-bold">
                     Demo
                   </button>
                 </a>
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg font-bold">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            style={{ backgroundImage: `url(${Twitch})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/* Hover Effect */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                ReactJS Application
-              </span>
-              <div>
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg font-bold">
-                    Demo
-                  </button>
-                </a>
-                <a href="/">
+                <a href="https://github.com/ttquyen/character-customization-app">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg font-bold">
                     Code
                   </button>
