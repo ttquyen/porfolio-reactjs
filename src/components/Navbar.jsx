@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
 import { BsPersonLinesFill } from "react-icons/bs";
 import Logo from "../assets/girl.png";
 import { Link } from "react-scroll";
-
+import { FaFacebookSquare } from "react-icons/fa";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => {
@@ -153,7 +152,9 @@ const Navbar = () => {
         <ul>
           <li className="w-[160px] h-[60px] flex items-center justify-between ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a
-              href="/"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/ttquyen765/"
               className=" w-full flex items-center justify-between text-gray-300"
             >
               Linkedin <FaLinkedin size={30} />
@@ -161,22 +162,28 @@ const Navbar = () => {
           </li>
           <li className="w-[160px] h-[60px] flex items-center justify-between ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
             <a
-              href="/"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/ttquyen"
               className=" w-full flex items-center justify-between text-gray-300"
             >
               Github <FaGithub size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex items-center justify-between ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
+          <li className="w-[160px] h-[60px] flex items-center justify-between ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-800">
             <a
-              href="/"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.facebook.com/thuyquyen.truong.50/"
               className=" w-full flex items-center justify-between text-gray-300"
             >
-              Email <HiOutlineMail size={30} />
+              Facebook <FaFacebookSquare size={30} />
             </a>
           </li>
           <li className="w-[160px] h-[60px] flex items-center justify-between ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
+              target="_blank"
+              rel="noopener noreferrer"
               href="/"
               className=" w-full flex items-center justify-between text-gray-300"
             >
