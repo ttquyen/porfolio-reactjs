@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
-import { BsPersonLinesFill } from "react-icons/bs";
 import Logo from "../assets/girl.png";
 import { Link } from "react-scroll";
 import { FaFacebookSquare } from "react-icons/fa";
