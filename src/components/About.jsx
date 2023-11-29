@@ -19,10 +19,10 @@ const About = () => {
           </div>
           <div>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque
-              saepe quos amet maxime perspiciatis nulla quia, iste illo
-              quibusdam, inventore nisi vitae reiciendis similique laborum. Quis
-              in iusto expedita facilis!
+              I graduated with a bachelor's degree in Computer Science from the
+              University of Science (HCMUS). Besides the time I spend learning
+              and working, I also do some physical activities. If we have the
+              same hobbies, don’t hesitate to leave me a message 😉
             </p>
           </div>
         </div>

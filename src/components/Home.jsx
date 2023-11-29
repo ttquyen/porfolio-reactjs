@@ -15,7 +15,8 @@ const Home = () => {
         </p>
         <p className="text-[#8892b0] py-8 max-w-[700px]">
           With 1+ year of experience in Web Development, passionate to build
-          polished, innovative, and well-detailed apps.
+          polished, innovative, and well-detailed apps. Currently, I'm focused
+          on learning Front-end frameworks to enhance my skills.
         </p>
         <div>
           <button className="group text-white px-4 py-3 border-2 flex items-center hover:bg-pink-600 hover:border-pink-600">
