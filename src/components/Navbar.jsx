@@ -63,6 +63,17 @@ const Navbar = () => {
         </li>
         <li>
           <Link
+            to="activities"
+            smooth={true}
+            duration={500}
+            activeClass="active"
+            spy={true}
+          >
+            Activities
+          </Link>
+        </li>
+        <li>
+          <Link
             to="contact"
             smooth={true}
             duration={500}
@@ -180,7 +191,7 @@ const Navbar = () => {
               Facebook <FaFacebookSquare size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex items-center justify-between ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
+          {/* <li className="w-[160px] h-[60px] flex items-center justify-between ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -189,7 +200,7 @@ const Navbar = () => {
             >
               Resume <BsPersonLinesFill size={30} />
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>

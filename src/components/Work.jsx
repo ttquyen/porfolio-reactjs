@@ -29,12 +29,20 @@ const Work = () => {
                 The Movie App
               </span>
               <div>
-                <a href="https://quyentt-movie-app-final.netlify.app/">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://quyentt-movie-app-final.netlify.app/"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg font-bold">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/ttquyen/the-movie-app/tree/enhance-final">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/ttquyen/the-movie-app/tree/enhance-final"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg font-bold">
                     Code
                   </button>
@@ -52,12 +60,20 @@ const Work = () => {
                 CoderComm
               </span>
               <div>
-                <a href="https://quyentt-coder-comm.netlify.app/">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://quyentt-coder-comm.netlify.app/"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg font-bold">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/ttquyen/codercomm">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/ttquyen/codercomm"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg font-bold">
                     Code
                   </button>
@@ -75,12 +91,20 @@ const Work = () => {
                 Steam Game Shop
               </span>
               <div>
-                <a href="https://quyentt-steam-game-shop.netlify.app/">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://quyentt-steam-game-shop.netlify.app/"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg font-bold">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/ttquyen/steam-game-shop">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/ttquyen/steam-game-shop"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg font-bold">
                     Code
                   </button>
@@ -105,12 +129,20 @@ const Work = () => {
                 Character Customization
               </span>
               <div>
-                <a href="https://quyentt-character-customization-app.netlify.app/">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://quyentt-character-customization-app.netlify.app/"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg font-bold">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/ttquyen/character-customization-app">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/ttquyen/character-customization-app"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg font-bold">
                     Code
                   </button>
@@ -128,12 +160,20 @@ const Work = () => {
                 Tic Tac Toe
               </span>
               <div>
-                <a href="https://quyentt-tic-tac-toe.netlify.app/">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://quyentt-tic-tac-toe.netlify.app/"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg font-bold">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/ttquyen/fw-tic-tac-toe">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/ttquyen/fw-tic-tac-toe"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg font-bold">
                     Code
                   </button>
@@ -151,12 +191,20 @@ const Work = () => {
                 TO-DO List
               </span>
               <div>
-                <a href="https://quyentt-to-do-list.netlify.app/">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://quyentt-to-do-list.netlify.app/"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg font-bold">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/ttquyen/intro-react/tree/todolist">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/ttquyen/intro-react/tree/todolist"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg font-bold">
                     Code
                   </button>
